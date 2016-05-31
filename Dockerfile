@@ -11,6 +11,7 @@ RUN apk add --update git go \
     && rm -rf /var/cache/apk
 
 COPY templates/ /opt/goreportcard/templates
+COPY assets/ /opt/goreportcard/assets
 COPY scripts/start-grc.sh /opt/goreportcard/
 COPY goreportcard /opt/goreportcard/
 WORKDIR /opt/goreportcard
