@@ -1,6 +1,7 @@
 build:
   image: golang:1.6-alpine
   commands:
+    - apk add --update git
     - go get
     - go build
     - go test
