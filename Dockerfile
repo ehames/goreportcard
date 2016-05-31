@@ -2,7 +2,7 @@ FROM alpine:edge
 
 ENV GOPATH /go
 
-RUN apk add --update git go \
+RUN apk add --update go git bzr mercurial subversion \
     && go get golang.org/x/tools/go/vcs \
     && go get github.com/tools/godep \
     && go get github.com/alecthomas/gometalinter \
