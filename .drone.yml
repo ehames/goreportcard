@@ -9,5 +9,6 @@ build:
 publish:
   docker:
     registry: registry.aguirre.io:5000
+    insecure: true
     repo: goreportcard
     tag: latest
