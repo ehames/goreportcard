@@ -1,4 +1,4 @@
-[![Go Report Card](https://goreportcard.com/badge/gojp/goreportcard)](https://goreportcard.com/report/gojp/goreportcard) [![Build Status](https://travis-ci.org/gojp/goreportcard.svg?branch=master)](https://travis-ci.org/gojp/goreportcard)
+[![Go Report Card](https://goreportcard.com/badge/gojp/goreportcard)](https://goreportcard.com/report/gojp/goreportcard) [![Build Status](http://drone.aguirre.io/api/badges/tn/goreportcard/status.svg)](http://drone.aguirre.io/tn/goreportcard)
 
 # Go Report Card
 
