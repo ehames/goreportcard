@@ -1,0 +1,12 @@
+build:
+  image: golang:1.6-alpine
+  commands:
+    - go get
+    - go build
+    - go test
+
+publish:
+  docker:
+    registry: registry.aguirre.io:5000
+    repo: goreportcard
+    tag: latest
