@@ -6,8 +6,8 @@ RUN apk add --update go git bzr mercurial subversion \
     && go get golang.org/x/tools/go/vcs \
     && go get github.com/tools/godep \
     && go get github.com/alecthomas/gometalinter \
-    && /go/bin/gometalinter --install --update \
     && go get github.com/client9/misspell/cmd/misspell \
+    && /go/bin/gometalinter --install --update \
     && rm -rf /var/cache/apk
 
 COPY templates/ /opt/goreportcard/templates
